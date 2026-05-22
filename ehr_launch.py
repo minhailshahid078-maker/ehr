@@ -723,7 +723,7 @@ def epic_launch():
             "response_type": "code",
             "client_id":     CLIENT_ID,
             "redirect_uri":  REDIRECT_URI,
-            "scope":         "launch openid fhirUser patient/Patient.read patient/Observation.read patient/Condition.read patient/MedicationRequest.read patient/DocumentReference.write",
+            "scope":         "launch openid fhirUser patient/Patient.read patient/Observation.read patient/Condition.read patient/MedicationRequest.read patient/DocumentReference.write patient/Encounter.read",
             "launch":        launch,
             "aud":           iss,
         }
